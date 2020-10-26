@@ -163,6 +163,7 @@ class _MyAppState extends State<MyApp> {
 
   _onAudioOnlyChanged(bool value) {
     setState(() {
+      print('++++++++++++  AUDIO CHANGED ++++++++++++');
       isAudioOnly = value;
     });
   }
